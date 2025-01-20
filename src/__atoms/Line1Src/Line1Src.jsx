@@ -1,6 +1,6 @@
 import React from "react";
 import "./Line1Src.css";
-import Wheat from "../wheat/Wheat";
+import Wheat from "../Wheat/Wheat";
 import Wfire from "../Wfire/Wfire";
 import Wleaf from "../Wleaf/Wleaf";
 
