@@ -3,8 +3,8 @@ import "./Wheat.css";
 
 const Wheat = (props) => {
   return (
-    <div className="Round wheat">
-      <img src={props.wheat} alt="" />
+    <div className="wheat">
+      <img src={props.wheat} alt="wheat" />
     </div>
   );
 };

@@ -11,8 +11,8 @@ const Line1Src = (props) => {
   return (
     <div className="Line1Src">
       {props.wheat && <Wheat wheat={props.wheat} />}
-      {props.fire && <Wfire fire={props.fire} />}
       {props.leaf && <Wleaf leaf={props.leaf} />}
+      {props.fire && <Wfire fire={props.fire} />}
     </div>
   );
 };

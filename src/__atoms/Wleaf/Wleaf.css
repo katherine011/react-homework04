@@ -1,4 +1,4 @@
-.Round {
+.leaf {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -6,16 +6,12 @@
   align-items: center;
   justify-content: center;
   padding: 5px;
-  background-color: white;
+  background-color: rgba(46, 204, 113, 1);
   border: none;
-  /* display: none; */
+  border-radius: 50px;
 }
 
-.Round > img {
+.leaf > img {
   width: 14px;
   height: 14px;
-}
-
-.leaf {
-  background-color: rgba(46, 204, 113, 1);
 }

@@ -3,8 +3,8 @@ import "./Wfire.css";
 
 const Wfire = (props) => {
   return (
-    <div className="Round fire">
-      <img src={props.fire} alt="" />
+    <div className="fire">
+      <img src={props.fire} alt="fire" />
     </div>
   );
 };

@@ -2,14 +2,19 @@ import React from "react";
 import "./MainCard.css";
 import Card from "../../__molecules/Card/Card";
 import Wheat from "../../assets/icons/wheat.png";
+import Leaf from "../../assets/icons/leaf.png";
+import Fire from "../../assets/icons/fire.png";
+import Pizza from "../../assets/images/Pizza.png";
+import Strawberry from "../../assets/images/Strawberry.png";
+import Tortellini from "../../assets/images/Tortellini.png";
 
 const MainCard = (props) => {
   return (
     <div className="MainCard">
       <Card
-        src={"src/assets/images/Pizza Photo.png"}
-        wheat={"src/assets/icons/wheat.png"}
-        fire={"src/assets/icons/fire.png"}
+        src={Pizza}
+        wheat={Wheat}
+        fire={Fire}
         h1={"Pepperoni Pizza"}
         text={
           "Premium pepperoni and cheese is made with real mozzarella on original hand-tossed crust."
@@ -21,10 +26,10 @@ const MainCard = (props) => {
         price2={"$29.90"}
       />
       <Card
-        src={"src/assets/images/Tortellini Photo.png"}
-        wheat={"src/assets/icons/wheat.png"}
-        fire={"src/assets/icons/fire.png"}
-        leaf={"src/assets/icons/leaf.png"}
+        src={Tortellini}
+        wheat={Wheat}
+        fire={Fire}
+        leaf={Leaf}
         h1={"Tortellini"}
         text={
           "Pasta stuffed with beef and pork topped with your choice of cream sauce with bacon, bolognese or marinara sauce."
@@ -36,8 +41,8 @@ const MainCard = (props) => {
         price2={"$22.90"}
       />
       <Card
-        src={"src/assets/images/Strawberry cake Photo.png"}
-        wheat={"src/assets/icons/wheat.png"}
+        src={Strawberry}
+        wheat={Wheat}
         h1={"Strawberry Cake"}
         text={
           "Three layer strawberry dessert is not only beautiful looking, but also delicious! Perfect dessert for spring and summer."

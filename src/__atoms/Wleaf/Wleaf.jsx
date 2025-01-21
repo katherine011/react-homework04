@@ -3,8 +3,8 @@ import "./Wleaf.css";
 
 const Wleaf = (props) => {
   return (
-    <div className="Round leaf">
-      <img src={props.leaf} alt="" />
+    <div className="leaf">
+      <img src={props.leaf} alt="leaf" />
     </div>
   );
 };
